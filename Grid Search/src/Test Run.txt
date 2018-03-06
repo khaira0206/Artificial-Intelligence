@@ -1,0 +1,134 @@
+
+ ********* First Trial ********* 
+
+
+Output for Breadth First Search
+
+Total Cost:18
+Number of nodes visited: 54
+
+1 1 1 W 0 0 0 0 0 0 0 0 
+0 0 1 1 1 2 2 2 2 2 0 0 
+0 W 0 0 W W 0 W W 1 0 0 
+0 W 0 0 0 W W 0 0 1 0 0 
+0 W 0 0 0 0 0 W 0 0 0 0 
+0 W 0 0 0 0 0 0 W W 0 0 
+0 0 0 0 0 0 0 0 0 W 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+
+Output for Uniform Cost Search
+
+Total Cost:44
+Number of nodes visited: 34
+
+1 0 0 W 1 2 2 2 2 0 0 0 
+1 0 1 1 1 0 0 0 2 2 0 0 
+1 W 1 0 W W 0 W W 1 0 0 
+1 W 1 0 0 W W 0 0 1 0 0 
+1 W 1 0 0 0 0 W 0 0 0 0 
+1 W 2 0 0 0 0 0 W W 0 0 
+1 0 2 0 0 0 0 0 0 W 0 0 
+2 0 2 0 0 0 0 0 0 0 0 0 
+2 0 2 0 0 0 0 0 0 0 0 0 
+1 1 2 0 0 0 0 0 0 0 0 0 
+
+Output for Greedy Search
+
+Total Cost:15
+Number of nodes visited: 14
+
+1 1 1 W 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 
+0 W 0 1 W W 0 W W 0 0 0 
+0 W 0 1 1 W W 0 0 0 0 0 
+0 W 0 0 1 1 1 W 0 0 0 0 
+0 W 0 0 0 0 1 1 W W 0 0 
+0 0 0 0 0 0 0 1 1 W 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+
+Output for Astar Search
+
+Total Cost:18
+Number of nodes visited: 69
+
+1 1 1 W 0 0 0 0 0 0 0 0 
+0 0 1 1 1 2 2 2 2 2 0 0 
+0 W 0 0 W W 0 W W 1 0 0 
+0 W 0 0 0 W W 0 0 1 0 0 
+0 W 0 0 0 0 0 W 0 0 0 0 
+0 W 0 0 0 0 0 0 W W 0 0 
+0 0 0 0 0 0 0 0 0 W 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+
+ ********* Second Trial ********* 
+
+
+Output for Breadth First Search
+
+Total Cost:16
+Number of nodes visited: 51
+
+0 0 0 W 0 0 0 0 0 0 0 0 
+0 1 1 1 1 2 2 2 2 2 0 0 
+0 W 0 0 W W 0 W W 1 0 0 
+0 W 0 0 0 W W 0 0 1 0 0 
+0 W 0 0 0 0 0 W 0 0 0 0 
+0 W 0 0 0 0 0 0 W W 0 0 
+0 0 0 0 0 0 0 0 0 W 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+
+Output for Uniform Cost Search
+
+Total Cost:45
+Number of nodes visited: 34
+
+0 0 0 W 0 0 2 2 2 0 0 0 
+1 1 0 1 1 2 2 0 2 2 0 0 
+1 W 1 1 W W 0 W W 1 0 0 
+1 W 1 0 0 W W 0 0 1 0 0 
+1 W 1 0 0 0 0 W 0 0 0 0 
+1 W 2 0 0 0 0 0 W W 0 0 
+1 0 2 0 0 0 0 0 0 W 0 0 
+2 0 2 0 0 0 0 0 0 0 0 0 
+2 0 2 0 0 0 0 0 0 0 0 0 
+1 1 2 0 0 0 0 0 0 0 0 0 
+
+Output for Greedy Search
+
+Total Cost:13
+Number of nodes visited: 12
+
+0 0 0 W 0 0 0 0 0 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 
+0 W 0 1 W W 0 W W 0 0 0 
+0 W 0 1 1 W W 0 0 0 0 0 
+0 W 0 0 1 1 1 W 0 0 0 0 
+0 W 0 0 0 0 1 1 W W 0 0 
+0 0 0 0 0 0 0 1 1 W 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+
+Output for Astar Search
+
+Total Cost:16
+Number of nodes visited: 70
+
+0 0 0 W 0 0 0 0 0 0 0 0 
+0 1 1 1 1 2 2 2 2 2 0 0 
+0 W 0 0 W W 0 W W 1 0 0 
+0 W 0 0 0 W W 0 0 1 0 0 
+0 W 0 0 0 0 0 W 0 0 0 0 
+0 W 0 0 0 0 0 0 W W 0 0 
+0 0 0 0 0 0 0 0 0 W 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
